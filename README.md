@@ -1,4 +1,4 @@
-[![<ORG_NAME>](https://circleci.com/gh/gabrielastudillo/operationalize-ml-microservices-kubernetes.svg?style=svg)](<LINK>)
+[![GAstudillo](https://circleci.com/gh/gabrielastudillo/operationalize-ml-microservices-kubernetes.svg?style=svg)](https://circleci.com/gh/gabrielastudillo/operationalize-ml-microservices-kubernetes)
 <body></body>
 </html>
 # operationalize-ml-microservices-kubernetes
