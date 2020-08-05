@@ -1,6 +1,6 @@
 [![GAstudillo](https://circleci.com/gh/gabrielastudillo/operationalize-ml-microservices-kubernetes.svg?style=svg)](https://circleci.com/gh/gabrielastudillo/operationalize-ml-microservices-kubernetes)
 
-_Introduction_
+## _Introduction_
 
 The goal of this project is to operationalize a machine learning microservice using kubernetes, which is an open-source system for automating the management of containerized applications. In this project you will perform the following tasks:
 
@@ -51,13 +51,12 @@ __`./make_prediction.sh`__
 
 &nbsp;
 
-## Files:
+## _Files:_
 
-* app.py: The flask app that runs the service
-* Makefile: File that allows to automate common task for aasy setup of the project
-* Dockerfile: This file has the setup for creating a Docker image for the microservice
-* run_docker.sh: This script creates a docker image from the Dockerfile, list the images and starts a container
-* make_prediction.sh: This script sends data for prediction using curl and prints the predicted value on the command line
-* upload_docker.sh: This script uploads a docker image to docker hub
-* run_kubernetes.sh: This script runs the docker image in a kubernetes cluster
-
+- app.py: The flask app that runs the service.
+- Makefile: File that allows to automate common task for aasy setup of the project.
+- Dockerfile: This file has the setup for creating a Docker image for the microservice.
+- run_docker.sh: This script creates a docker image from the Dockerfile, list the images and starts a container.
+- upload_docker.sh: This script uploads a docker image to your docker hub account.
+- run_kubernetes.sh: This script runs the docker image in a kubernetes cluster (locally).
+- make_prediction.sh: This script sends data for prediction.
