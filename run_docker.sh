@@ -4,10 +4,10 @@
 
 # Step 1:
 # Build image and add a descriptive tag
-docker build --tag=predictiveapp .
+docker build --tag=predictapp .
 # Step 2: 
 # List docker images
 docker image ls
 # Step 3: 
 # Run predictive (flask) app
-docker run -p 8000:80 predictiveapp
+docker run -p 8000:80 predictapp
