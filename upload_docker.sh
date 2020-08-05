@@ -5,7 +5,7 @@
 
 # Step 1:
 # Create dockerpath
-dockerpath="gabrielastudillo/predictapp"
+dockerpath="gastudillo/predictapp"
 
 # Step 2:  
 # Authenticate & tag
